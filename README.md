@@ -114,3 +114,17 @@ Anthropic 공식 플러그인도 같은 방식으로 설치합니다.
 - 스킬: https://code.claude.com/docs/en/skills
 - 플러그인: https://code.claude.com/docs/en/plugins
 - 플러그인 마켓플레이스: https://code.claude.com/docs/en/plugin-marketplaces
+
+---
+
+## 4. 설치된 외부 플러그인
+
+이 프로젝트의 `.claude/settings.json`에 아래 플러그인이 등록되어 있습니다.
+저장소를 받은 뒤 이 폴더에서 `claude`를 실행하고 폴더를 신뢰하면 설치하라는 안내가 나옵니다.
+
+| 플러그인 | 저장소 | 용도 |
+|---|---|---|
+| `ponytail@ponytail` | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 가장 단순한 코드만 쓰게 하는 "게으른 시니어 개발자" 모드 |
+| `impeccable@impeccable` | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | 프론트엔드 디자인 품질 향상 (`/impeccable polish`, `audit`, `critique` 등) |
+
+Impeccable은 처음 한 번 `/impeccable init`을 실행하세요.
