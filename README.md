@@ -126,6 +126,7 @@ Anthropic 공식 플러그인도 같은 방식으로 설치합니다.
 |---|---|---|
 | `ponytail@ponytail` | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 가장 단순한 코드만 쓰게 하는 "게으른 시니어 개발자" 모드 |
 | `impeccable@impeccable` | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | 프론트엔드 디자인 품질 향상 (`/impeccable polish`, `audit`, `critique` 등) |
+| `ui-ux-pro-max@ui-ux-pro-max-skill` | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | UI 스타일·색상·폰트 조합·UX 가이드 데이터베이스 (디자인 시스템, 배너, 브랜드, 슬라이드 스킬 포함) |
 
 Impeccable은 처음 한 번 `/impeccable init`을 실행하세요.
 
@@ -134,7 +135,13 @@ Impeccable은 처음 한 번 `/impeccable init`을 실행하세요.
 | 스킬 | 출처 | 용도 |
 |---|---|---|
 | `logo-generator` | [op7418/logo-generator-skill](https://github.com/op7418/logo-generator-skill) (MIT, 커밋 `bf4e9ac`) | SVG 로고 시안 생성과 쇼케이스 이미지 제작 |
+| `frontend-design` | [anthropics/skills](https://github.com/anthropics/skills) (커밋 `2c5958e`) | 템플릿 같지 않은, 의도가 분명한 UI 디자인 |
+| `web-artifacts-builder` | 〃 | React·Tailwind·shadcn/ui로 여러 컴포넌트가 있는 HTML 아티팩트 제작 |
+| `canvas-design` | 〃 | 포스터·아트워크를 PNG/PDF로 제작 (폰트 포함) |
+| `algorithmic-art` | 〃 | p5.js 제너러티브 아트 |
+| `slack-gif-creator` | 〃 | 슬랙용 애니메이션 GIF 제작 |
 
-`.claude/skills/logo-generator/`에 복사해 두었으므로 이 폴더에서 Claude Code를 열면 자동으로 로드됩니다.
-쇼케이스 이미지 생성(`scripts/generate_showcase.py`)을 쓰려면 Gemini API 키가 필요합니다:
+모두 `.claude/skills/` 아래에 복사해 두었으므로 이 폴더에서 Claude Code를 열면 자동으로 로드됩니다.
+각 스킬의 라이선스는 해당 폴더의 `LICENSE.txt`를 따릅니다.
+logo-generator의 쇼케이스 이미지 생성(`scripts/generate_showcase.py`)을 쓰려면 Gemini API 키가 필요합니다:
 `.env.example`을 `.env`로 복사해 키를 넣고 `pip install -r requirements.txt`를 실행하세요. `.env`는 커밋되지 않습니다.

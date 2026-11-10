@@ -1,14 +1,27 @@
 {
-  "extraKnownMarketplaces": {
-    "ponytail": {
-      "source": { "source": "github", "repo": "DietrichGebert/ponytail" }
-    },
-    "impeccable": {
-      "source": { "source": "github", "repo": "pbakaus/impeccable" }
-    }
-  },
   "enabledPlugins": {
     "ponytail@ponytail": true,
-    "impeccable@impeccable": true
+    "impeccable@impeccable": true,
+    "ui-ux-pro-max@ui-ux-pro-max-skill": true
+  },
+  "extraKnownMarketplaces": {
+    "ponytail": {
+      "source": {
+        "source": "github",
+        "repo": "DietrichGebert/ponytail"
+      }
+    },
+    "impeccable": {
+      "source": {
+        "source": "github",
+        "repo": "pbakaus/impeccable"
+      }
+    },
+    "ui-ux-pro-max-skill": {
+      "source": {
+        "source": "github",
+        "repo": "nextlevelbuilder/ui-ux-pro-max-skill"
+      }
+    }
   }
 }
