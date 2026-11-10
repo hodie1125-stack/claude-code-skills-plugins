@@ -1,0 +1,6 @@
+{
+  "name": "korean-helper",
+  "description": "한국어 코드 리뷰 명령어(/review-ko)와 한국어 커밋 메시지 스킬을 제공합니다.",
+  "version": "1.0.0",
+  "keywords": ["korean", "review", "commit"]
+}
