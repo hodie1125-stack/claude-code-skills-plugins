@@ -128,3 +128,13 @@ Anthropic 공식 플러그인도 같은 방식으로 설치합니다.
 | `impeccable@impeccable` | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | 프론트엔드 디자인 품질 향상 (`/impeccable polish`, `audit`, `critique` 등) |
 
 Impeccable은 처음 한 번 `/impeccable init`을 실행하세요.
+
+## 5. 설치된 외부 스킬
+
+| 스킬 | 출처 | 용도 |
+|---|---|---|
+| `logo-generator` | [op7418/logo-generator-skill](https://github.com/op7418/logo-generator-skill) (MIT, 커밋 `bf4e9ac`) | SVG 로고 시안 생성과 쇼케이스 이미지 제작 |
+
+`.claude/skills/logo-generator/`에 복사해 두었으므로 이 폴더에서 Claude Code를 열면 자동으로 로드됩니다.
+쇼케이스 이미지 생성(`scripts/generate_showcase.py`)을 쓰려면 Gemini API 키가 필요합니다:
+`.env.example`을 `.env`로 복사해 키를 넣고 `pip install -r requirements.txt`를 실행하세요. `.env`는 커밋되지 않습니다.
